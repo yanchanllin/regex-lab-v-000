@@ -1,8 +1,8 @@
 def starts_with_a_vowel?(word)
 if word.match(/^[aeiouAEIOU]+\w/)
-then 
+then
     return true
-  else 
+  else
     return false
 end
 
@@ -16,16 +16,16 @@ end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
 if text.match(/^[A-Z].+[\.!?]$/)
-then 
+then
     return true
-  else 
+  else
     return false
 end
 
 def valid_phone_number?(phone)
 if phone.match(/([0-9] *?){10}|(\([0-9]{3}\)(([0-9]{3}-[0-9]{4})|[0-9]{7})\b)/)
-  then 
+  then
       return true
-    else 
+    else
       return false
 end
